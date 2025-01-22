@@ -1,0 +1,25 @@
+.input {
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+  transition: border-color 0.3s ease;
+
+  flex: 1;
+  padding: 16px;
+  background: var(--gray-500);
+  color: var(--gray-100);
+
+  font-size: 16px;
+}
+
+.input:hover {
+  border-color: var(--purple-dark);
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--purple-dark);
+}
+
+.input::placeholder {
+  color: var(--gray-300);
+}
