@@ -1,0 +1,25 @@
+.header {
+  width: 100vw;
+  min-height: 200px;
+
+  background-color: var(--gray-700);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.purple {
+  color: var(--purple-dark);
+}
