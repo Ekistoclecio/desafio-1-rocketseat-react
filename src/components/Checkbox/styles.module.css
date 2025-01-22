@@ -4,6 +4,10 @@
   appearance: none;
   -webkit-appearance: none;
   outline: none;
+
+  min-width: 26px;
+  min-height: 26px;
+  padding: 4px;
 }
 .checkbox:before {
   content: "";
@@ -42,6 +46,6 @@
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   position: absolute;
-  top: 4px;
-  left: 7px;
+  top: 8px;
+  left: 11px;
 }
