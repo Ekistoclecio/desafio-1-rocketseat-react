@@ -15,6 +15,7 @@
 .text {
   font-size: 14px;
   color: var(--gray-100);
+  flex: 1;
 }
 
 .textStrikethrough {
