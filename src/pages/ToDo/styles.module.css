@@ -1,0 +1,31 @@
+.main {
+  margin-top: -27px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+
+  width: 95%;
+  max-width: 736px;
+  margin-inline: auto;
+
+  overflow: hidden;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  width: 100%;
+  overflow: hidden;
+}
+.tasksList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  margin-bottom: 12px;
+}
